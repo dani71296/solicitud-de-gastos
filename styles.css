@@ -1,0 +1,195 @@
+:root {
+  --primary-color: #1b365d;
+  --primary-hover: #142846;
+  --bg-color: #f4f6f9;
+  --card-bg: #ffffff;
+  --border-color: #d0d7de;
+  --text-color: #24292f;
+  --subtext-color: #57606a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 550px;
+  background: var(--card-bg);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--primary-color);
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+}
+
+fieldset {
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 14px;
+  background-color: #ffffff;
+}
+
+legend {
+  font-weight: 600;
+  font-size: 0.8rem;
+  color: var(--subtext-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 0 4px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-group:last-child {
+  margin-bottom: 0;
+}
+
+label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--text-color);
+}
+
+/* Campos de texto y selectores adaptados a entrada táctil */
+input[type="text"],
+input[type="date"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 1rem; /* Previene el zoom automático molesto en iOS */
+  background-color: #fafafa;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="number"]:focus,
+select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  background-color: #ffffff;
+}
+
+/* Filas ajustables para Categorías y Montos */
+.form-row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.col-main {
+  flex: 65%;
+}
+
+.col-side {
+  flex: 35%;
+}
+
+/* Radio buttons táctiles grandes para dedos */
+.radio-group {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-option {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  background: #fafafa;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.radio-option input[type="radio"] {
+  margin: 0;
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primary-color);
+}
+
+/* Total */
+.total-display {
+  margin-top: 12px;
+  background: #eef3f8;
+  padding: 12px;
+  border-radius: 6px;
+  text-align: right;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--primary-color);
+  border: 1px solid #d4e0ed;
+}
+
+/* Botón flotante/destacado para celular */
+.btn-submit {
+  width: 100%;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  border: none;
+  padding: 16px;
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.btn-submit:active {
+  transform: scale(0.98);
+}
+
+/* Ajustes específicos para pantallas muy pequeñas (< 400px) */
+@media (max-width: 400px) {
+  body {
+    padding: 6px;
+  }
+  .container {
+    padding: 12px;
+  }
+  .form-row {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .col-main, .col-side {
+    flex: 100%;
+  }
+}

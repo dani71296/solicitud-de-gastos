@@ -1,0 +1,16 @@
+[
+  {
+    "nombre": "Juan Perez Gomez",
+    "direccion": "Av. Principal #123, Col. Centro",
+    "titular": "Juan Perez Gomez",
+    "tipoId": "INE",
+    "noId": "1234567890123"
+  },
+  {
+    "nombre": "Maria Rodriguez Santos",
+    "direccion": "Calle Olivos #45, Col. Jardin",
+    "titular": "Maria Rodriguez Santos",
+    "tipoId": "INE",
+    "noId": "9876543210987"
+  }
+]
