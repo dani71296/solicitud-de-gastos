@@ -54,5 +54,19 @@
     "titular": "Aline Loeza Lopez",
     "tipoId": "INE",
     "noId": "1242091051621"
+  },
+  {
+    "nombre": "Cruz Galicia Gilberto",
+    "direccion": "Calle Orquidea 23 Fracc. Jardines del Sur C.P. 72495, Puebla, Puebla.",
+    "titular": "Cruz Galicia Gilberto",
+    "tipoId": "INE",
+    "noId": "2657030153753"
+  },
+  {
+    "nombre": "Alejandra Elizabeth Alva Ochoa",
+    "direccion": "7ma de Santa Clara 2D jardines de Santa Rosa, Puebla, Puebla.",
+    "titular": "Alejandra Elizabeth Alva Ochoa",
+    "tipoId": "INE",
+    "noId": "2657076134182"
   }
 ]
