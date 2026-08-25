@@ -44,8 +44,15 @@
   {
     "nombre": "Naomi Belem flores Carrillo",
     "direccion": "Rusia 455 Magisterial periferico Sur, Puebla, Puebla.",
-    "titular": "Naomi Belem flores Carrillos",
+    "titular": "Naomi Belem flores Carrillo",
     "tipoId": "INE",
     "noId": "2649132654344"
+  },
+  {
+    "nombre": "Jaramillo Loeza Aline",
+    "direccion": "Calle la luz 13305 colonia Guadalupe Hidalgo, Puebla, Puebla.",
+    "titular": "Aline Loeza Lopez",
+    "tipoId": "INE",
+    "noId": "1242091051621"
   }
 ]
