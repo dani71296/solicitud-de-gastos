@@ -2,7 +2,7 @@
 
 let beneficiariosBD = [];
 
-const opcionesCategories = [
+const opcionesCategorias = [
   "Ofrendas de Ayuno - Gastos Comida",
   "Ofrendas de Ayuno - Gastos Alojamiento",
   "Ofrendas de Ayuno - Gastos Médicos",
