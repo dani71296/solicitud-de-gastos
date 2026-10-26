@@ -2,7 +2,11 @@
 
 let beneficiariosBD = [];
 
-const opcionesCategorias = [
+const opcionesCategories = [
+  "Ofrendas de Ayuno - Gastos Comida",
+  "Ofrendas de Ayuno - Gastos Alojamiento",
+  "Ofrendas de Ayuno - Gastos Médicos",
+  "Ofrendas de Ayuno - Gastos Agua, Gas, Electricidad",
   "Quórum Élderes", "Grupo Sumos Sacerdotes", "Adultos Solteros", "Administración",
   "Currículo", "Centro de Distribución", "PFJ en casa", "Misceláneo",
   "Hombres Jóvenes", "Mujeres Jóvenes", "Biblioteca", "Primaria",
